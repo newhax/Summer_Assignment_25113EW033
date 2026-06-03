@@ -13,5 +13,6 @@ public class question1 {
             sum += i;
         }
         System.out.println("Sum of first n numbers = " + sum);
+        sc.close();
     }
 }

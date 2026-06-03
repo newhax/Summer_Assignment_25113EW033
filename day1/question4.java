@@ -14,6 +14,7 @@ public class question4 {
             count++;
         }
         System.out.println("Number of digits = " + count);
+        sc.close();
     }
 }
 
