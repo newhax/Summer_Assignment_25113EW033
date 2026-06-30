@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class question115 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter String: ");
+        String str = sc.nextLine();
+
+        System.out.println("1.Length");
+        System.out.println("2.Uppercase");
+        System.out.println("3.Lowercase");
+
+        int choice = sc.nextInt();
+
+        switch (choice) {
+            case 1:
+                System.out.println(str.length());
+                break;
+            case 2:
+                System.out.println(str.toUpperCase());
+                break;
+            case 3:
+                System.out.println(str.toLowerCase());
+                break;
+        }
+
+        sc.close();
+    }
+}
+
